@@ -12,7 +12,7 @@ namespace ConsoleApplicaition1
         {
             string[] lines = System.IO.File.ReadAllLines(@"D:\gaz.txt");
             var closeList = new List<float>();
-
+              
             foreach (var line in lines)
             {
                 var closestr = line.Split(',')[7];
